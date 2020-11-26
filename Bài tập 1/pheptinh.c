@@ -3,7 +3,10 @@
 int main(){
 	//khai bao bien a, b kieu int
 	int a,b;
-	a = 3; b = 5;
+	//khai bao bien a
+	a = 3;
+	//khai bao bien b
+	b = 5;
 	// khai bao bien tong, hieu, thuong, tich
 	int tong, hieu, tich;
 	double thuong;
