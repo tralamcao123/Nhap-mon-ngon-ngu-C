@@ -15,7 +15,7 @@ int main(){
 	hieu = a - b;
 	tich = a * b;
 	thuong = (double)a / b;
-	//Hien thi các bien tong, hieu, tich, thuong theo dinh dang: a + b = 8, a-b =-2, a*b=15, a/b=0
+	//Hien thi cac bien tong, hieu, tich, thuong theo dinh dang: a + b = 8, a-b =-2, a*b=15, a/b=0
 	printf("a + b =%d, a - b = %d, a * b =%d,a / b = %0.1f",tong, hieu, tich, thuong);
 	return 0;
 	
