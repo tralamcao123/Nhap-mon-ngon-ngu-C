@@ -11,8 +11,8 @@ int main(void) {
   DT = R*R*PI;
   CV = 2*R*PI;
   // hien thi R, Cv, DT ra man hinh
-  printf("CV\t DT\n");
-  printf("%g\t  %g",CV,DT);
+  printf("CV\t DT\t R\n");
+  printf(" %g\t  %g\t  %d",CV,DT);
   getchar();
   return 0;
 }
