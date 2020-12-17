@@ -15,9 +15,10 @@ int main(){
 	
 	thanhtien = dongia * soluong;
 	
-	//mua 5 sp giam 25%
+	//mua 5 sp giam 50%
 	if(soluong>=5){
-		printf("so tien can thanh toan la %d", thanhtien*75/100);
+		if(dongia>=500000)
+		printf("so tien can thanh toan la %d", thanhtien*50/100);
 	}else{
 		printf("so tien can thanh toan la %d", thanhtien);
 	}
