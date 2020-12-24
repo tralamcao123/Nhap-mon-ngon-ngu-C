@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int count;
-  for(count=1; count<=10; count++)
-	printf("%d \n", count);
-  for(count=1; count<=10; count++)
-	printf(" %d ", count);
+  int dem;
+  for(dem = 1; dem <= 10; dem = dem + 1)
+	printf("%d \n", dem);
+  for(dem = 1; dem <= 10; dem = dem + 1)
+	printf(" %d ", dem);
   return 0;
 }
