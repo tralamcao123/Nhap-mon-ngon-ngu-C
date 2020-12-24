@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-  int count;
-  for(count=1; count<=10; count++)
-  printf("\n \n \t xin chao");
+  int dem;
+  for(dem = 1; dem <=10; dem = dem +1)
+  printf("xin chao"\n);
 
   return 0;
 }
