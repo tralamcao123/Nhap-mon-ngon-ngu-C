@@ -1,4 +1,6 @@
  &:xác định vị trí địa chỉ của biển
  == là so sánh 
  
- ++ là + thêm 1 
+ ++ là + thêm 1
+ -- là - đi 1
+% là chia lấy phần dư
