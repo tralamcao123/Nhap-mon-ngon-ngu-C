@@ -1,21 +1,19 @@
 #include <stdio.h>
 
-int main()
-{
-  //Khai bao bien i va j
-int i, j;
-  printf("\t                      BANG CUU CHUONG\n");
-  //Vong lap tu 1 den 10
-for (i = 1; i < 11; i++)
-{
-  //Vong lap nhan tu 1 den 10
-for (j = 1; j < 10; j++)
-{
-  //Hien thi ra man hinh ket qua bang cuu chuong ra man hinh
-  printf("%d*%d=%d\t", j, i, j * i);
-}
-  printf("\n");
-}
-
-return 0;
+int main(void) {
+ int a, b, c;
+ a = 1; b = 2; c = 3;
+  printf("====Bang cuu chuong so 2====\n");
+  printf("%d * 1 = %d\n", a, a * 1);
+  printf("%d * 2 = %d\n", a, a * 2);
+  printf("%d * 3 = %d\n", a, a * 3);
+  printf("====Bang cuu chuong so 3====\n");
+  printf("%d * 1 = %d\n", b, b * 1);
+  printf("%d * 2 = %d\n", b, b * 2);
+  printf("%d * 3 = %d\n", b, b * 3);
+   printf("====Bang cuu chuong so 4====\n");
+  printf("%d * 1 = %d\n", c, c * 1);
+  printf("%d * 2 = %d\n", c, c * 2);
+  printf("%d * 3 = %d\n", c, c * 3);
+  return 0;
 }
