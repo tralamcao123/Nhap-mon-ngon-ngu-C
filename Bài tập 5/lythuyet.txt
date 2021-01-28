@@ -1,0 +1,19 @@
+KIỂM TRA 1
+
+Kết quả của chương trình là: 3252
+Giải thích: Chương trình in ra các giá trị x và y của hàm a và hàm b.
+
+
+KIỂM TRA 2 
+1) Khái niệm :Biến là vùng bộ nhớ được cấp phát dùng để lưu trữ giá trị cho một kiểu dữ liệu nào đó tại một thời điểm nhất định và nó được truy xuất thông qua 
+một tên đã được khai báo cho biến đó, một biến trong ngôn ngữ lập trình C trước khi được sử dụng nó phải được khai báo ở đầu mỗi khối lệnh.
+   Cú Pháp: Kiểu_dữ liệu Tên_biến; 
+2) Biến toàn cục là biến có phạm vi sử dụng trong toàn bộ chương trình, khai báo ở ngoài các hàm các khối.
+   Biến cục bộ là biến chỉ có phạm vi sử dụng trong khối / hàm kể từ sau vị trí nó được khai báo.
+3) Hàm là một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào đó (tính tổng, hiển thị thông báo đến người dùng,...)
+   Một cách hiểu khác về hàm: hàm là một sự chia nhỏ của chương trình.
+   Hàm có 2 loại:
+  - Hàm thư viện chuẩn (Standard library functions):
+      Là các hàm được xây dựng sẵn (build-in functions) trong ngôn ngữ C như hàm Scàn, Printf, Getchar,.. 
+      Các hàm này được định nghĩa trong tập tin có phần mở rộng .h như stdio.h, conio.h,...Các tập tin này phải được gộp vào chương trình thông qua chỉ định #include
+   - Hàm do người dùng định nghĩa (user-defined functions): Định nghĩa theo nhu cầu người dùng.
